@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Card } from './ui/card';
 
 const StyledAppContainer = styled.div`
-  transition: all 0.2s linear;
+  transition: all 0.3s linear;
   height: 100vh;
   width: 100%;
   display: grid;

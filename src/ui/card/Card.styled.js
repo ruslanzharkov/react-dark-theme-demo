@@ -4,7 +4,7 @@ export const StyledCardContainer = styled.div`
     width: 350px;
     height: fit-content;
     background: ${({ theme }) => theme.card.background};
-    box-shadow: 0px 0px 14px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 14px 0px ${({ theme }) => theme.card.boxShadow};
     border-radius: 20px;
 `;
 

@@ -5,7 +5,7 @@ export const useDarkMode = () => {
 
     useEffect(() => {
         if (!window.matchMedia || window.matchMedia('(prefers-color-scheme)').media === 'not all') {
-            // dark mode is not supported 😔 
+            // not supported 
             return;
         }
 
@@ -19,7 +19,6 @@ export const useDarkMode = () => {
 
         colorSchemeQuery.addEventListener('change', (event) => {
             const isDarkModeOn = event.matches;
-            console.log(`Dark mode is ${isDarkModeOn ? '🌒 on' : '☀️ off'}.`);
 
             setIsDarkMode(isDarkModeOn);
         });
