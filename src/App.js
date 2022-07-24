@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-import './App.css';
 import { Card } from './ui/card';
 
 const StyledAppContainer = styled.div`
@@ -17,7 +16,7 @@ const StyledAppContainer = styled.div`
 
 function App() {
   return (
-    <StyledAppContainer className="App">
+    <StyledAppContainer>
       <Card
         title="Lorem Ipsum"
         imgSrc="https://images.unsplash.com/photo-1658572352229-14bbe60b3c5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80"

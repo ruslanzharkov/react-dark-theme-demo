@@ -1,12 +1,12 @@
-import { 
-    StyledCardContainer, 
-    StyledImage, 
+import {
+    StyledCardContainer,
+    StyledImage,
     StyledInfoContainer,
     StyledTitle,
     StyledDescription
 } from './Card.styled';
 
-export const Card = ({imgSrc, title, description}) => {
+export const Card = ({ imgSrc, title, description }) => {
     return (
         <StyledCardContainer>
             <StyledImage src={imgSrc} alt="background image of the card" />
